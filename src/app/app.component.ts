@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngIntro-Form';
+
+  postTitle:string='';
+  postDetails:string='';
+  imageUrl:string='';
+  postUrl:string='';
+  addBackground: boolean=false;
 }
